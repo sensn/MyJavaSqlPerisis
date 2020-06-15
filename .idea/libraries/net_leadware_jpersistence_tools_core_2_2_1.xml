@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="net.leadware:jpersistence-tools-core:2.2.1" type="repository">
+    <properties maven-id="net.leadware:jpersistence-tools-core:2.2.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/leadware/jpersistence-tools-core/2.2.1/jpersistence-tools-core-2.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/leadware/jpersistence-tools-api/2.2.1/jpersistence-tools-api-2.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/de/odysseus/juel/juel-spi/2.2.3/juel-spi-2.2.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/de/odysseus/juel/juel-impl/2.2.3/juel-impl-2.2.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.4/commons-codec-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
