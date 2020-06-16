@@ -1,6 +1,6 @@
 package com.company;
 //https://www.sqlitetutorial.net/sqlite-java/
-        https://www.sqlitetutorial.net/sqlite-java/transaction/
+        //https://www.sqlitetutorial.net/sqlite-java/transaction/
 public class Main {
 
     public static void main(String[] args) {
