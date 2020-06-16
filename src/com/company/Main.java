@@ -1,5 +1,6 @@
 package com.company;
-
+//https://www.sqlitetutorial.net/sqlite-java/
+        https://www.sqlitetutorial.net/sqlite-java/transaction/
 public class Main {
 
     public static void main(String[] args) {
@@ -7,10 +8,20 @@ public class Main {
         //Connect.connect();
       //  DbFunc.createNewDatabase("test.db");
        // DbFunc.createNewTable();
-//Connect.openConnection();
-        DbOperations app = new DbOperations();
-        app.selectAll();
+        Connect.openConnection();
+        DbOperations db_opp = new DbOperations();
+
         Connect.closeConnection();
+
+       db_opp.insert("Raw Materials", 3000);
+       db_opp.insert("Semifinished Goods", 4000);
+       db_opp.insert("Finished Goods", 5000);
+
+        db_opp.selectAll();
+        db_opp.getCapacityGreaterThan(3600);
+
+        db_opp.update(3, "Finished Products", 5500);
+        db_opp.delete(3);
 
 //        Driver driver = new SQLiteDriver("database.sql");    // We create a driver first (provided by JPersis) and create an JPersis object:
 //        JPersis jpersis = new JPersis(driver);
